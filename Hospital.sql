@@ -234,3 +234,38 @@ INSERT into receita (id_receita, qnt_medicamentos, instr_medicamentos, medicamen
 INSERT into receita (id_receita, qnt_medicamentos, instr_medicamentos, medicamentos, medico_id, paciente_id) values (8, 'Uma caixa com 1 frasco-ampola com pó para solução de uso intravenoso + 1 frasco-ampola com 10mL de solução estabilizante', 'Aplicar na área das entradas do cabelo 2 vezes ao dia', 'Blincyto 38,5mcg', 7, 8);
 INSERT into receita (id_receita, qnt_medicamentos, instr_medicamentos, medicamentos, medico_id, paciente_id) values (9, 'Uma caixa com 1 frasco com 100mL de solução de uso intravenoso', 'Aplicar na área das entradas do cabelo 2 vezes ao dia', 'Aclasta 5mg/100mL', 9, 15);
 INSERT into receita (id_receita, qnt_medicamentos, instr_medicamentos, medicamentos, medico_id, paciente_id) values (10, 'caixa com 1 frasco-ampola', 'Aplicar na área das entradas do cabelo 2 vezes ao dia', 'Botulim 100U', 4, 5);
+
+
+-- Adicionando mais uma coluna de atividades na tabela medico
+ALTER TABLE medico add column em_atividade varchar(30) default null;
+
+UPDATE medico 
+SET em_atividade = "Ativo"
+where id_medico = 1;
+UPDATE medico 
+SET em_atividade = "Ativo"
+where id_medico = 2;
+UPDATE medico 
+SET em_atividade = "Ativo"
+where id_medico = 3;
+UPDATE medico 
+SET em_atividade = "Inativo"
+where id_medico = 4;
+UPDATE medico 
+SET em_atividade = "Ativo"
+where id_medico = 5;
+UPDATE medico 
+SET em_atividade = "Ativo"
+where id_medico = 6;
+UPDATE medico 
+SET em_atividade = "Inativo"
+where id_medico = 7;
+UPDATE medico 
+SET em_atividade = "Ativo"
+where id_medico = 8;
+UPDATE medico 
+SET em_atividade = "Ativo"
+where id_medico = 9;
+UPDATE medico 
+SET em_atividade = "Ativo"
+where id_medico = 10;
