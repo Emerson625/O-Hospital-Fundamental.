@@ -33,7 +33,10 @@ A internação, obviamente, é vinculada a um paciente – que pode se internar 
 
 ![O Hospital fundamental drawio(2)](https://user-images.githubusercontent.com/110692035/201503973-848b1b1d-2eb0-45e7-b833-654945278b82.png)
 
-<h3> Jogando nas regras que você criou: </h3>
+  <h3> PARTE 3 - Alimentando o banco de dados </h3>
+  
+<h4> Jogando nas regras que você criou: </h4>
+
 Crie scripts de povoamento das tabelas desenvolvidas na atividade anterior.
 
 Observe as seguintes atividades: 
