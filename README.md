@@ -33,7 +33,7 @@ A internação, obviamente, é vinculada a um paciente – que pode se internar 
 
 ![O Hospital fundamental drawio(2)](https://user-images.githubusercontent.com/110692035/201503973-848b1b1d-2eb0-45e7-b833-654945278b82.png)
 
-<h1> Jogando nas regras que você criou: </h1>
+<h3> Jogando nas regras que você criou: </h3>
 Crie scripts de povoamento das tabelas desenvolvidas na atividade anterior.
 
 Observe as seguintes atividades: 
@@ -66,9 +66,9 @@ Inclua ao menos dez médicos de :
 
 - Os dados de tipo de quarto, convênio e especialidade são essenciais para a operação do sistema e, portanto, devem ser povoados assim que o sistema for instalado.
 
-<h1> PARTE 4 - Alterando o banco de dados </h1>
+<h3> PARTE 4 - Alterando o banco de dados </h3>
 
-<h2> Mãos a Obra </h2>
+<h4> Mãos a Obra </h4>
 
 - Pensando no banco que já foi criado para o Projeto do Hospital, realize algumas alterações nas tabelas e nos dados usando comandos de atualização e exclusão:
 
