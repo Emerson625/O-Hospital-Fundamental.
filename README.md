@@ -79,7 +79,7 @@ Inclua ao menos dez médicos de :
 
 Crie um script para atualizar ao menos dois médicos como inativos e os demais em atividade.
 
-<h3> PARTE 5 - As Relíquias dos Dados </h3>
+<h3> PARTE 5 - Consultas </h3>
 
 Crie um script e nele inclua consultas que retornem:
 
