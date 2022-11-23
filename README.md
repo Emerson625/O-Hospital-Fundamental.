@@ -78,3 +78,30 @@ Inclua ao menos dez médicos de :
 - Crie um script que adicione uma coluna “em_atividade” para os médicos, indicando se ele ainda está atuando no hospital ou não. 
 
 Crie um script para atualizar ao menos dois médicos como inativos e os demais em atividade.
+
+<h3> PARTE 5 - As Relíquias dos Dados </h3>
+
+Crie um script e nele inclua consultas que retornem:
+
+1 - Todos os dados e o valor médio das consultas do ano de 2020 e das que foram feitas sob convênio.
+
+2 - Todos os dados das internações que tiveram data de alta maior que a data prevista para a alta.
+
+3 - Receituário completo da primeira consulta registrada com receituário associado.
+
+4 - Todos os dados da consulta de maior valor e também da de menor valor (ambas as consultas não foram realizadas sob convênio).
+
+5 - Todos os dados das internações em seus respectivos quartos, calculando o total da internação a partir do valor de diária do quarto e o número de dias entre a 
+entrada e a alta.
+
+6 - Data, procedimento e número de quarto de internações em quartos do tipo “apartamento”.
+
+7 - Nome do paciente, data da consulta e especialidade de todas as consultas em que os pacientes eram menores de 18 anos na data da consulta e cuja especialidade não seja “pediatria”, ordenando por data de realização da consulta.
+
+8 - Nome do paciente, nome do médico, data da internação e procedimentos das internações realizadas por médicos da especialidade “gastroenterologia”, que tenham acontecido em “enfermaria”.
+
+9 - Os nomes dos médicos, seus CRMs e a quantidade de consultas que cada um realizou.
+
+10 - Todos os médicos que tenham "Gabriel" no nome. 
+
+11 - Os nomes, CREs e número de internações de enfermeiros que participaram de mais de uma internação.
